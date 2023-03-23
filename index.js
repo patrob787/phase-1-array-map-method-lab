@@ -12,7 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  let newTutorials = [];
   const splitLines = tutorials.map((line) => {
     return line.split(' ')
   });
